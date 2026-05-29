@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YoungMBA - Where Young Minds Build the Future</title>
+  <meta name="description" content="MBA-style entrepreneurship education for ages 9-19. Real business skills, financial literacy, and AI tools.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" as="style">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=40">
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <img src="logo.png" alt="YoungMBA" class="logo-img" width="32" height="32">
+        <span class="logo-text">YoungMBA</span>
+      </a>
+      <nav class="desktop-nav">
+        <a href="index.html">Home</a>
+        <a href="programs.html">Programs &amp; Pricing</a>
+        <a href="curriculum.html">Curriculum</a>
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQs</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <!-- Inline dots — visible only in scrolled-mini state on mobile -->
+      <nav id="header-dots" aria-label="Page sections" class="header-dots-nav">
+        <a href="#sec-problem"   data-label="The Problem"          class="snav-dot hdot"></a>
+        <a href="#sec-failing"   data-label="Why Schools Fail"     class="snav-dot hdot"></a>
+        <a href="#sec-what"      data-label="What YoungMBA Is"     class="snav-dot hdot"></a>
+        <a href="#sec-how"       data-label="How It Works"         class="snav-dot hdot"></a>
+        <a href="#sec-programs"  data-label="Programs"             class="snav-dot hdot"></a>
+        <a href="#sec-build"     data-label="What Students Build"  class="snav-dot hdot"></a>
+        <a href="#sec-skills"    data-label="Skills"               class="snav-dot hdot"></a>
+        <a href="#sec-different" data-label="Why We're Different"  class="snav-dot hdot"></a>
+        <a href="#sec-who"       data-label="Who It's For"         class="snav-dot hdot"></a>
+        <a href="#sec-founder"   data-label="Founder Message"      class="snav-dot hdot"></a>
+        <a href="#sec-cta"       data-label="Get Started"          class="snav-dot hdot"></a>
+      </nav>
+      <div class="header-right">
+        <a href="enroll.html" class="btn-enroll-header">Enroll Now</a>
+        <button class="hamburger" aria-label="Toggle menu">
+          <svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+          <svg class="icon-close" style="display:none" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+    <nav class="mobile-nav">
+      <a href="index.html">Home</a>
+      <a href="programs.html">Programs &amp; Pricing</a>
+      <a href="curriculum.html">Curriculum</a>
+      <a href="about.html">About</a>
+      <a href="faq.html">FAQs</a>
+      <a href="contact.html">Contact</a>
+      <a href="enroll.html" class="btn-enroll-mobile">Enroll Now</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-overlay-1"></div>
+      <div class="hero-overlay-2"></div>
+      <div class="hero-content hero-content-wide">
+        <h1 class="heading-hero">
+          <span class="text-gradient-purple">Where Young Minds:</span>
+        </h1>
+        <div class="rotating-text-wrapper">
+          <span class="rotating-word-container">
+            <span class="rotating-word enter">Build Real Businesses</span>
+            <span class="rotating-word enter">Master AI Tools</span>
+            <span class="rotating-word enter">Innovate &amp; Create</span>
+            <span class="rotating-word enter">Lead With Confidence</span>
+            <span class="rotating-word enter">Think Like CEOs</span>
+            <span class="rotating-word enter">Solve Big Problems</span>
+            <span class="rotating-word enter">Launch Startups</span>
+            <span class="rotating-word enter">Manage Money</span>
+            <span class="rotating-word enter">Pitch Like Pros</span>
+            <span class="rotating-word enter">Shape The Future</span>
+          </span>
+        </div>
+        <p class="hero-tagline"><span class="hero-tagline-skills">Business, Money &amp; AI Skills</span><span class="hero-tagline-sub">Where big ideas start young</span></p>
+        <div style="margin-top:2.5rem;">
+          <a href="programs.html" class="btn btn-lg btn-primary animate-pulse-glow">Start Your Journey</a>
+        </div>
+      </div>
+      <div class="hero-bottom-fade"></div>
+    </section>
+
+  <main>
+
+    <!-- ══ SEC 2 — THE PROBLEM ══ -->
+    <section id="sec-problem" class="section sec-padded">
+      <div class="container">
+                <div class="text-center animate-heading-reveal">
+          <span style="display:inline-block; font-size:0.75rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#fb923c; background:hsla(30,90%,55%,0.1); border:1px solid hsla(30,90%,55%,0.3); border-radius:9999px; padding:0.3rem 0.9rem; margin-bottom:1.25rem;">The Gap In Education</span>
+          <h2 class="heading-xl text-balance">
+            <span class="text-gradient-orange">The Problem</span><span class="text-fg"> We're Solving</span>
+          </h2>
+          <p class="section-subtitle">Most students graduate without learning how money works, how businesses operate, or how to use AI — the exact skills the future demands.</p>
+        </div>
+        <div class="grid grid-3 gap-6 sec-grid-top">
+          <div class="card card-hover card-lift animate-on-scroll" style="border-color:hsla(260,70%,60%,0.4);">
+            <div class="flex items-center justify-between" style="margin-bottom:1.5rem;">
+              <div class="icon-box" style="background:var(--secondary); color:var(--muted-fg);">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>
+              </div>
+              <span class="stat-number" style="font-size:1.875rem; font-weight:800; color:var(--primary);" data-counter="65" data-suffix="%">0%</span>
+            </div>
+            <h3 class="heading-sm text-fg">Future Jobs Don't Exist Yet</h3>
+            <p style="margin-top:0.75rem; color:var(--muted-fg); line-height:1.625;">Students need adaptability, creativity, and entrepreneurial thinking — skills schools rarely teach.</p>
+          </div>
+          <div class="card card-hover card-lift animate-on-scroll animate-delay-100" style="border-color:hsla(340,80%,55%,0.4);">
+            <div class="flex items-center justify-between" style="margin-bottom:1.5rem;">
+              <div class="icon-box" style="background:var(--secondary); color:var(--muted-fg);">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg>
+              </div>
+              <span style="font-size:1.875rem; font-weight:800; color:#f472b6;">AI</span>
+            </div>
+            <h3 class="heading-sm text-fg">Reshaping Every Industry</h3>
+            <p style="margin-top:0.75rem; color:var(--muted-fg); line-height:1.625;">Those who understand AI will lead the future economy. Those who don't will be left behind.</p>
+          </div>
+          <div class="card card-hover card-lift animate-on-scroll animate-delay-200" style="border-color:hsla(30,90%,55%,0.4);">
+            <div class="flex items-center justify-between" style="margin-bottom:1.5rem;">
+              <div class="icon-box" style="background:var(--secondary); color:var(--muted-fg);">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+              </div>
+              <span class="stat-number" style="font-size:1.875rem; font-weight:800; color:#fb923c;" data-counter="73" data-suffix="%">0%</span>
+            </div>
+            <h3 class="heading-sm text-fg">Financial Literacy Gap</h3>
+            <p style="margin-top:0.75rem; color:var(--muted-fg); line-height:1.625;">Most young people graduate without understanding money, investing, or building wealth. This costs them decades.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="sec-cta-wrap">
+      <div class="cta-banner cta-purple animate-on-scroll">
+        <div>
+          <h3>School Isn't Enough Anymore</h3>
+          <p>The future economy needs skills most classrooms never teach.</p>
+        </div>
+        <a href="enroll.html" class="btn btn-md btn-white">See How We Fix It &rarr;</a>
+      </div>
+    </div>
+
+    <!-- ══ SEC 3 — WHY EDUCATION IS FAILING ══ -->
+    <section id="sec-failing" class="section sec-padded sec-alt">
+      <div class="container">
+                <div class="text-center animate-heading-reveal">
+          <span style="display:inline-block; font-size:0.75rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#fb923c; background:hsla(30,90%,55%,0.1); border:1px solid hsla(30,90%,55%,0.3); border-radius:9999px; padding:0.3rem 0.9rem; margin-bottom:1.25rem;">The System Is Broken</span>
+          <h2 class="heading-xl text-balance">
+            <span class="text-fg">Why Traditional Education Is </span><span class="text-gradient-orange">Failing Your Child</span>
+          </h2>
+          <p class="section-subtitle">The world has changed faster than any classroom. Here's what's being left out.</p>
+        </div>
+        <div class="fail-grid animate-on-scroll sec-grid-top">
+          <div class="fail-row">
+            <div class="fail-icon" style="background:hsla(0,80%,55%,0.15); border-color:hsla(0,80%,55%,0.3);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#f87171" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></div>
+            <div><strong class="text-fg">The Factory Model</strong><p class="text-sm" style="color:var(--muted-fg);margin-top:0.3rem;line-height:1.65;">Schools built 100 years ago for factory workers — memorisation over creativity. AI is already replacing those skills.</p></div>
+          </div>
+          <div class="fail-row">
+            <div class="fail-icon" style="background:hsla(30,90%,55%,0.15); border-color:hsla(30,90%,55%,0.3);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fb923c" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+            <div><strong class="text-fg">No Financial Education</strong><p class="text-sm" style="color:var(--muted-fg);margin-top:0.3rem;line-height:1.65;">12+ years in school and graduates still can't read a bank statement, understand investing, or manage a budget.</p></div>
+          </div>
+          <div class="fail-row">
+            <div class="fail-icon" style="background:hsla(340,80%,55%,0.15); border-color:hsla(340,80%,55%,0.3);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#f472b6" stroke-width="2"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/></svg></div>
+            <div><strong class="text-fg">Ignoring the AI Revolution</strong><p class="text-sm" style="color:var(--muted-fg);margin-top:0.3rem;line-height:1.65;">While AI reshapes every industry, most classrooms haven't even introduced the tools. Students will compete against people who've used them for years.</p></div>
+          </div>
+          <div class="fail-row">
+            <div class="fail-icon" style="background:hsla(260,70%,60%,0.15); border-color:hsla(260,70%,60%,0.3);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div>
+            <div><strong class="text-fg">Zero Leadership Training</strong><p class="text-sm" style="color:var(--muted-fg);margin-top:0.3rem;line-height:1.65;">Communication, persuasion, team leadership — skills that determine career success — treated as extras, never essentials.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="sec-cta-wrap">
+      <div class="cta-banner cta-amber animate-on-scroll">
+        <div>
+          <h3>There's a Better Way</h3>
+          <p>YoungMBA fills every gap traditional school leaves behind.</p>
+        </div>
+        <a href="enroll.html" class="btn btn-md btn-white">Enroll Free &rarr;</a>
+      </div>
+    </div>
+
+    <!-- ══ SEC 4 — WHAT YOUNGMBA IS ══ -->
+    <section id="sec-what" class="section sec-padded">
+      <div class="container">
+        <div class="grid" style="grid-template-columns:1fr 1fr; gap:4rem; align-items:center; display:grid;">
+          <div class="animate-on-scroll">
+            <span style="display:inline-block; font-size:0.75rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--primary); background:hsla(260,70%,60%,0.12); border:1px solid hsla(260,70%,60%,0.25); border-radius:9999px; padding:0.3rem 0.9rem; margin-bottom:1.25rem;">A Modern Business Academy</span>
+            <h2 class="heading-xl text-balance">
+              <span class="text-fg">Real MBA Knowledge,</span><br>
+              <span class="text-gradient-purple">Made for Young Minds</span>
+            </h2>
+            <p class="section-subtitle" style="text-align:left; margin-left:0;">YoungMBA takes the exact concepts taught in top business schools and reshapes them into engaging, hands-on lessons students aged 9–19 can actually apply — building real skills, not just passing tests.</p>
+            <a href="about.html" class="btn btn-md btn-outline" style="margin-top:1.75rem; display:inline-flex;">Our Story &rarr;</a>
+          </div>
+          <div class="animate-on-scroll animate-delay-100" style="display:flex; flex-direction:column; gap:1rem;">
+            <div class="card card-hover" style="padding:1.5rem; display:flex; gap:1rem; align-items:flex-start;">
+              <div style="width:42px;height:42px;border-radius:0.625rem;background:linear-gradient(135deg,#7c3aed,#a855f7);display:flex;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 4px 12px hsla(260,70%,60%,0.3);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div>
+              <div><strong class="text-fg">MBA-Level Concepts, Youth-Friendly Delivery</strong><p class="text-sm" style="color:var(--muted-fg);margin-top:0.25rem;line-height:1.6;">Real business knowledge broken into short, actionable lessons — no jargon, no fluff.</p></div>
+            </div>
+            <div class="card card-hover" style="padding:1.5rem; display:flex; gap:1rem; align-items:flex-start;">
+              <div style="width:42px;height:42px;border-radius:0.625rem;background:linear-gradient(135deg,#059669,#34d399);display:flex;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 4px 12px hsla(160,70%,45%,0.3);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
+              <div><strong class="text-fg">Build While You Learn</strong><p class="text-sm" style="color:var(--muted-fg);margin-top:0.25rem;line-height:1.6;">Every module ends with a real project — students walk away with work they created, not just notes they took.</p></div>
+            </div>
+            <div class="card card-hover" style="padding:1.5rem; display:flex; gap:1rem; align-items:flex-start;">
+              <div style="width:42px;height:42px;border-radius:0.625rem;background:linear-gradient(135deg,#d97706,#f59e0b);display:flex;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 4px 12px hsla(40,90%,55%,0.3);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+              <div><strong class="text-fg">Tools the Real World Uses</strong><p class="text-sm" style="color:var(--muted-fg);margin-top:0.25rem;line-height:1.6;">Canva, ChatGPT, Excel — students leave fluent in the exact tools modern employers actually look for.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="sec-cta-wrap">
+      <div class="cta-banner cta-blue animate-on-scroll">
+        <div>
+          <h3>Curious What's Inside?</h3>
+          <p>See the full curriculum — all 10 modules, broken down clearly.</p>
+        </div>
+        <a href="enroll.html" class="btn btn-md btn-white">Start Free &rarr;</a>
+      </div>
+    </div>
+
+    <!-- ══ SEC 5 — HOW IT WORKS ══ -->
+    <section id="sec-how" class="section sec-padded sec-alt">
+      <div class="container">
+                <div class="text-center animate-heading-reveal">
+          <span style="display:inline-block; font-size:0.75rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--accent); background:hsla(160,70%,45%,0.12); border:1px solid hsla(160,70%,45%,0.25); border-radius:9999px; padding:0.3rem 0.9rem; margin-bottom:1.25rem;">The Method</span>
+          <h2 class="heading-xl text-balance">
+            <span class="text-fg">Learn. Build. Launch. </span><span class="text-gradient-purple">Grow.</span>
+          </h2>
+          <p class="section-subtitle">Our four-phase framework turns short lessons into real skills — through action, not just theory.</p>
+        </div>
+        <div class="grid grid-4 gap-6 sec-grid-top">
+          <div class="card card-hover card-lift animate-on-scroll how-card" style="border-color:hsla(260,70%,60%,0.3);">
+            <div class="how-step-num" style="background:var(--primary);">1</div>
+            <div class="how-icon-wrap" style="background:hsla(260,70%,60%,0.15);border-color:hsla(260,70%,60%,0.3);">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            </div>
+            <h3 class="heading-sm text-fg">Learn</h3>
+            <p class="text-sm" style="margin-top:0.5rem; color:var(--muted-fg); line-height:1.7;">Short, expert-built lessons in business, money, AI, and leadership. Absorb the concept quickly.</p>
+          </div>
+          <div class="card card-hover card-lift animate-on-scroll animate-delay-100 how-card" style="border-color:hsla(160,70%,45%,0.3);">
+            <div class="how-step-num" style="background:var(--accent);">2</div>
+            <div class="how-icon-wrap" style="background:hsla(160,70%,45%,0.15);border-color:hsla(160,70%,45%,0.3);">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3 class="heading-sm text-fg">Build</h3>
+            <p class="text-sm" style="margin-top:0.5rem; color:var(--muted-fg); line-height:1.7;">Immediately apply it with a real project — pitch decks, budgets, brand strategies, websites. Real work, not busywork.</p>
+          </div>
+          <div class="card card-hover card-lift animate-on-scroll animate-delay-200 how-card" style="border-color:hsla(30,90%,55%,0.3);">
+            <div class="how-step-num" style="background:#fb923c;">3</div>
+            <div class="how-icon-wrap" style="background:hsla(30,90%,55%,0.12);border-color:hsla(30,90%,55%,0.3);">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fb923c" stroke-width="2"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/></svg>
+            </div>
+            <h3 class="heading-sm text-fg">Launch</h3>
+            <p class="text-sm" style="margin-top:0.5rem; color:var(--muted-fg); line-height:1.7;">Students take their work live — startup ideas validated, projects published, presentations delivered to real audiences.</p>
+          </div>
+          <div class="card card-hover card-lift animate-on-scroll animate-delay-300 how-card" style="border-color:hsla(260,70%,60%,0.3);">
+            <div class="how-step-num" style="background:linear-gradient(135deg,#7c3aed,#a855f7);">4</div>
+            <div class="how-icon-wrap" style="background:hsla(260,70%,60%,0.15);border-color:hsla(260,70%,60%,0.3);">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+            </div>
+            <h3 class="heading-sm text-fg">Grow</h3>
+            <p class="text-sm" style="margin-top:0.5rem; color:var(--muted-fg); line-height:1.7;">Confidence, leadership instincts, and entrepreneurial thinking that compound with every module completed.</p>
+          </div>
+        </div>
+        <div class="text-center" style="margin-top:2rem;">
+          <a href="curriculum.html" class="btn btn-sm btn-outline animate-on-scroll">View Curriculum &rarr;</a>
+        </div>
+      </div>
+    </section>
+    <div class="sec-cta-wrap">
+      <div class="cta-banner cta-teal animate-on-scroll">
+        <div>
+          <h3>Ready to Start the Journey?</h3>
+          <p>Join the free Financial Foundations program — no credit card needed.</p>
+        </div>
+        <a href="enroll.html" class="btn btn-md btn-white">Start Free &rarr;</a>
+      </div>
+    </div>
+
+    <!-- ══ SEC 6 — PROGRAMS ══ -->
+    <section id="sec-programs" class="section sec-padded">
+      <div class="container">
+                <div class="text-center animate-heading-reveal">
+          <span style="display:inline-block; font-size:0.75rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--primary); background:hsla(260,70%,60%,0.12); border:1px solid hsla(260,70%,60%,0.25); border-radius:9999px; padding:0.3rem 0.9rem; margin-bottom:1.25rem;">3 Clear Paths Forward</span>
+          <h2 class="heading-xl text-balance">
+            <span class="text-fg">Choose Your </span><span class="text-gradient-purple">Learning Path</span>
+          </h2>
+          <p class="section-subtitle">Pick the program that fits your age, pace, and ambition. Start free — upgrade when you're ready.</p>
+        </div>
+        <!-- Scarcity bar -->
+        <div class="scarcity-bar animate-on-scroll">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <span><strong>Beta Cohort Open</strong> — Limited spots available. Founding members get locked-in pricing forever.</span>
+        </div>
+        <div class="pricing-toggle justify-center animate-on-scroll" style="margin-top:1.5rem;">
+          <span class="toggle-label" id="lbl-monthly">Monthly</span>
+          <div class="toggle-switch" role="button" tabindex="0" aria-label="Toggle annual pricing"><div class="toggle-knob"></div></div>
+          <span class="toggle-label active" id="lbl-annual">Annual <span style="color:var(--accent); font-weight:600;">(Save ~30%)</span></span>
+        </div>
+        <div class="grid grid-3 gap-6 sec-grid-top">
+          <!-- Financial Foundations -->
+          <div class="card card-hover card-lift flex flex-col animate-on-scroll">
+            <div class="flex items-center justify-between" style="margin-bottom:1rem;"><span class="badge badge-free">FREE RIGHT NOW</span></div>
+            <h3 class="heading-sm text-fg">Financial Foundations</h3>
+            <p class="text-sm text-primary" style="margin-top:0.25rem;">Ages 9–13 &nbsp;·&nbsp; 2-Month Intensive</p>
+            <p style="margin-top:0.75rem; color:var(--muted-fg); line-height:1.625;">Build the money mindset early — your child will leave knowing how to budget, save, and start thinking about investing, all through interactive challenges they actually enjoy.</p>
+            <div style="margin-top:1.25rem; padding:0.875rem 1rem; background:hsla(160,70%,45%,0.08); border:1px solid hsla(160,70%,45%,0.2); border-radius:0.625rem;">
+              <p style="font-size:0.8rem; font-weight:700; color:var(--accent); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:0.5rem;">Your child will gain</p>
+              <p style="font-size:0.875rem; color:var(--muted-fg); line-height:1.6;">The confidence to talk about money, understand a budget, and make smarter decisions — skills most adults still don't have.</p>
+            </div>
+            <ul class="flex flex-col gap-2" style="margin-top:1.25rem; flex:1;">
+              <li class="flex items-center gap-2 text-sm" style="color:var(--muted-fg);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Interactive lessons &amp; exercises</li>
+              <li class="flex items-center gap-2 text-sm" style="color:var(--muted-fg);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>2-Week Money Back Guarantee</li>
+              <li class="flex items-center gap-2 text-sm" style="color:var(--muted-fg);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>No credit card required</li>
+              <li class="flex items-center gap-2 text-sm" style="color:var(--muted-fg);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Certificate of completion</li>
+            </ul>
+            <div style="margin-top:2rem; border-top:1px solid var(--border); padding-top:1.5rem;">
+              <div class="price-monthly" style="font-size:1.875rem; font-weight:800; color:var(--fg);">$4.99<span style="font-size:1rem; font-weight:400; color:var(--muted-fg);">/mo (USD)</span></div>
+              <div class="price-annual" style="font-size:1.875rem; font-weight:800; color:var(--fg);">$2.99<span style="font-size:1rem; font-weight:400; color:var(--muted-fg);">/mo billed annually</span></div>
+              <p class="text-sm" style="color:var(--accent); margin-top:0.25rem;">Beta offer — price increases soon</p>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSf1P7-CUKOiCsyAf0QVSuamN7p8Uf0sLZQu9_UibUyphBmMtw/viewform?usp=header" target="_blank" rel="noopener noreferrer" class="btn btn-md w-full" style="margin-top:1rem; background:var(--accent); color:var(--accent-fg); display:block; text-align:center;">Start Free Trial &rarr;</a>
+            </div>
+          </div>
+          <!-- Self-Paced -->
+          <div class="card card-hover card-lift flex flex-col animate-on-scroll animate-delay-100" style="border-color:hsla(260,70%,60%,0.35);">
+            <div class="flex items-center justify-between" style="margin-bottom:1rem;"><span class="badge badge-accent">COMING SOON</span></div>
+            <h3 class="heading-sm text-fg">Self-Paced Business Program</h3>
+            <p class="text-sm text-primary" style="margin-top:0.25rem;">Ages 14–19 &nbsp;·&nbsp; 12–18 Months</p>
+            <p style="margin-top:0.75rem; color:var(--muted-fg); line-height:1.625;">A full business education on their schedule — entrepreneurship, AI, marketing, and strategy across 200+ lessons. Students finish with a real portfolio and the thinking of a founder.</p>
+            <div style="margin-top:1.25rem; padding:0.875rem 1rem; background:hsla(260,70%,60%,0.08); border:1px solid hsla(260,70%,60%,0.2); border-radius:0.625rem;">
+              <p style="font-size:0.8rem; font-weight:700; color:var(--primary); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:0.5rem;">Your child will gain</p>
+              <p style="font-size:0.875rem; color:var(--muted-fg); line-height:1.6;">The mindset of an entrepreneur, a portfolio of 5+ real projects, and the confidence to pitch ideas, lead teams, and build something real.</p>
+            </div>
+            <ul class="flex flex-col gap-2" style="margin-top:1.25rem; flex:1;">
+              <li class="flex items-center gap-2 text-sm" style="color:var(--muted-fg);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>200+ lessons &amp; real projects</li>
+              <li class="flex items-center gap-2 text-sm" style="color:var(--muted-fg);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>AI tools &amp; business strategy</li>
+              <li class="flex items-center gap-2 text-sm" style="color:var(--muted-fg);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Portfolio of real work</li>
+              <li class="flex items-center gap-2 text-sm" style="color:var(--muted-fg);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Lifetime access to skills</li>
+            </ul>
+            <div style="margin-top:2rem; border-top:1px solid var(--border); padding-top:1.5rem;">
+              <div class="price-monthly" style="font-size:1.875rem; font-weight:800; color:var(--fg);">$14.99<span style="font-size:1rem; font-weight:400; color:var(--muted-fg);">/mo (USD)</span></div>
+              <div class="price-annual" style="font-size:1.875rem; font-weight:800; color:var(--fg);">$10.99<span style="font-size:1rem; font-weight:400; color:var(--muted-fg);">/mo billed annually</span></div>
+              <p class="text-sm text-primary" style="margin-top:0.25rem;">Waitlist open — be first when it launches</p>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSepyPlC4Ao3DB-HcrdsyX3DrfY2fagTDQj43efjLs3xaLAVQA/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" class="btn btn-md btn-primary w-full" style="margin-top:1rem; display:block; text-align:center;">Join Waitlist &rarr;</a>
+            </div>
+          </div>
+          <!-- Live Masterclass -->
+          <div class="card card-hover card-lift flex flex-col animate-on-scroll animate-delay-200" style="border-color:hsla(340,80%,55%,0.3);">
+            <div class="flex items-center justify-between" style="margin-bottom:1rem;"><span class="badge badge-destructive">BETA — LIMITED SPOTS</span></div>
+            <h3 class="heading-sm text-fg">Live Masterclass</h3>
+            <p class="text-sm text-primary" style="margin-top:0.25rem;">Ages 14–19 &nbsp;·&nbsp; Monthly Cohorts</p>
+            <p style="margin-top:0.75rem; color:var(--muted-fg); line-height:1.625;">The most immersive YoungMBA experience — live weekly sessions, cohort-based projects, and 1-on-1 mentor feedback from people who've actually built businesses.</p>
+            <div style="margin-top:1.25rem; padding:0.875rem 1rem; background:hsla(340,80%,55%,0.08); border:1px solid hsla(340,80%,55%,0.2); border-radius:0.625rem;">
+              <p style="font-size:0.8rem; font-weight:700; color:#f472b6; text-transform:uppercase; letter-spacing:0.06em; margin-bottom:0.5rem;">Your child will gain</p>
+              <p style="font-size:0.875rem; color:var(--muted-fg); line-height:1.6;">Real mentor relationships, live pitch experience, team project leadership, and the kind of confidence that only comes from doing things in front of real people.</p>
+            </div>
+            <ul class="flex flex-col gap-2" style="margin-top:1.25rem; flex:1;">
+              <li class="flex items-center gap-2 text-sm" style="color:var(--muted-fg);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Weekly 90-min live sessions</li>
+              <li class="flex items-center gap-2 text-sm" style="color:var(--muted-fg);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Group projects &amp; real-time Q&amp;A</li>
+              <li class="flex items-center gap-2 text-sm" style="color:var(--muted-fg);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>1-on-1 mentor feedback</li>
+              <li class="flex items-center gap-2 text-sm" style="color:var(--muted-fg);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Rolling admissions — apply now</li>
+            </ul>
+            <div style="margin-top:2rem; border-top:1px solid var(--border); padding-top:1.5rem;">
+              <div class="price-monthly" style="font-size:1.875rem; font-weight:800; color:var(--fg);">$149.99<span style="font-size:1rem; font-weight:400; color:var(--muted-fg);">/mo (USD)</span></div>
+              <div class="price-annual" style="font-size:1.875rem; font-weight:800; color:var(--fg);">$99.99<span style="font-size:1rem; font-weight:400; color:var(--muted-fg);">/mo billed annually</span></div>
+              <p class="text-sm" style="color:var(--destructive); margin-top:0.25rem;">Beta pricing — this rate won't last</p>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfLQ5i7fMBCQGA3DrgMJJzxgZJRj1ls9QBFhpdRStolSdcsDw/viewform?usp=header" target="_blank" rel="noopener noreferrer" class="btn btn-md btn-cta w-full" style="margin-top:1rem; display:block; text-align:center;">Claim Free Trial &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center" style="margin-top:2rem;">
+          <a href="programs.html" class="btn btn-sm btn-outline animate-on-scroll">Compare Programs &rarr;</a>
+        </div>
+      </div>
+    </section>
+    <div class="sec-cta-wrap">
+      <div class="cta-banner cta-pink animate-on-scroll">
+        <div>
+          <h3>Not Sure Which Program Fits?</h3>
+          <p>Start with Financial Foundations — it's completely free.</p>
+        </div>
+        <a href="enroll.html" class="btn btn-md btn-white">Enroll Free &rarr;</a>
+      </div>
+    </div>
+
+    <!-- ══ SEC 7 — WHAT STUDENTS BUILD ══ -->
+    <section id="sec-build" class="section sec-padded sec-alt">
+      <div class="container">
+                <div class="text-center animate-heading-reveal">
+          <span style="display:inline-block; font-size:0.75rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--accent); background:hsla(160,70%,45%,0.12); border:1px solid hsla(160,70%,45%,0.25); border-radius:9999px; padding:0.3rem 0.9rem; margin-bottom:1.25rem;">Tangible Outcomes</span>
+          <h2 class="heading-xl text-balance">
+            <span class="text-fg">Real Projects — </span><span class="text-gradient-purple">Not Just Lessons</span>
+          </h2>
+          <p class="section-subtitle">Every student finishes with a portfolio of genuine work. Here's exactly what they create during the program.</p>
+        </div>
+        <div class="grid grid-3 gap-6 sec-grid-top">
+          <div class="card card-hover card-lift animate-on-scroll build-card" style="border-color:hsla(260,70%,60%,0.3);">
+            <div class="build-emoji">💰</div>
+            <h3 class="heading-sm text-fg">Personal Budget Plan</h3>
+            <p class="text-sm" style="margin-top:0.5rem; color:var(--muted-fg); line-height:1.7;">A real financial plan — income, expenses, savings goals, and investment strategy — built and owned by the student.</p>
+            <div class="build-tag animate-on-scroll">Financial Literacy</div>
+          </div>
+          <div class="card card-hover card-lift animate-on-scroll animate-delay-100 build-card" style="border-color:hsla(160,70%,45%,0.3);">
+            <div class="build-emoji">🚀</div>
+            <h3 class="heading-sm text-fg">Startup Idea &amp; Validation</h3>
+            <p class="text-sm" style="margin-top:0.5rem; color:var(--muted-fg); line-height:1.7;">An original business idea tested against real-world criteria — not just theory. Includes a full validation report.</p>
+            <div class="build-tag animate-on-scroll animate-delay-100">Entrepreneurship</div>
+          </div>
+          <div class="card card-hover card-lift animate-on-scroll animate-delay-200 build-card" style="border-color:hsla(30,90%,55%,0.3);">
+            <div class="build-emoji">📣</div>
+            <h3 class="heading-sm text-fg">Brand &amp; Marketing Strategy</h3>
+            <p class="text-sm" style="margin-top:0.5rem; color:var(--muted-fg); line-height:1.7;">A complete brand identity — name, audience, positioning, and go-to-market plan. Built using Canva and AI tools.</p>
+            <div class="build-tag animate-on-scroll animate-delay-200">Marketing</div>
+          </div>
+          <div class="card card-hover card-lift animate-on-scroll build-card" style="border-color:hsla(340,80%,55%,0.3);">
+            <div class="build-emoji">🌐</div>
+            <h3 class="heading-sm text-fg">Website or Online Project</h3>
+            <p class="text-sm" style="margin-top:0.5rem; color:var(--muted-fg); line-height:1.7;">A live digital presence students publish themselves — a real online footprint before most peers even have one.</p>
+            <div class="build-tag animate-on-scroll">Digital Skills</div>
+          </div>
+          <div class="card card-hover card-lift animate-on-scroll animate-delay-100 build-card" style="border-color:hsla(260,70%,60%,0.3);">
+            <div class="build-emoji">🎤</div>
+            <h3 class="heading-sm text-fg">Pitch Deck</h3>
+            <p class="text-sm" style="margin-top:0.5rem; color:var(--muted-fg); line-height:1.7;">A polished investor-style presentation delivered live — building real confidence, communication, and persuasion skills.</p>
+            <div class="build-tag animate-on-scroll animate-delay-100">Leadership</div>
+          </div>
+          <div class="card card-hover card-lift animate-on-scroll animate-delay-200 build-card" style="background:linear-gradient(135deg,hsla(260,70%,60%,0.1),hsla(160,70%,45%,0.07)); border-color:hsla(260,70%,60%,0.4);">
+            <div class="build-emoji">🏆</div>
+            <h3 class="heading-sm text-fg">Completion Portfolio</h3>
+            <p class="text-sm" style="margin-top:0.5rem; color:var(--muted-fg); line-height:1.7;">All projects combined into a professional portfolio — plus a certificate of completion showing exactly what they built.</p>
+            <div class="build-tag animate-on-scroll animate-delay-200">Portfolio</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="sec-cta-wrap">
+      <div class="cta-banner cta-emerald animate-on-scroll">
+        <div>
+          <h3>Every Project Is Theirs to Keep</h3>
+          <p>Real work. Real ownership. Real proof of what they learned.</p>
+        </div>
+        <a href="enroll.html" class="btn btn-md btn-white">Start Building &rarr;</a>
+      </div>
+    </div>
+
+    <!-- ══ SEC 8 — SKILLS STUDENTS DEVELOP ══ -->
+    <section id="sec-skills" class="section sec-padded">
+      <div class="container">
+                <div class="text-center animate-heading-reveal">
+          <span style="display:inline-block; font-size:0.75rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--primary); background:hsla(260,70%,60%,0.12); border:1px solid hsla(260,70%,60%,0.25); border-radius:9999px; padding:0.3rem 0.9rem; margin-bottom:1.25rem;">What They Walk Away With</span>
+          <h2 class="heading-xl text-balance">
+            <span class="text-fg">Skills Students </span><span class="text-gradient-purple">Actually Develop</span>
+          </h2>
+          <p class="section-subtitle">Not a list of buzzwords — outcomes students can demonstrate, use, and build on for life.</p>
+        </div>
+        <div class="grid grid-3 gap-6 sec-grid-top">
+          <div class="card card-hover card-lift animate-on-scroll skill-card">
+            <div class="skill-icon-wrap" style="background:hsla(160,70%,45%,0.15); border-color:hsla(160,70%,45%,0.3);">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <h3 class="heading-sm text-fg">Manage Money</h3>
+            <p class="text-sm" style="margin-top:0.5rem; color:var(--muted-fg); line-height:1.7;">Budget, save, invest, and make smart financial decisions — skills that create lifelong wealth.</p>
+            <div class="skill-outcomes">
+              <span>Budgeting</span><span>Investing</span><span>Saving</span>
+            </div>
+          </div>
+          <div class="card card-hover card-lift animate-on-scroll animate-delay-100 skill-card">
+            <div class="skill-icon-wrap" style="background:hsla(260,70%,60%,0.15); border-color:hsla(260,70%,60%,0.3);">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/></svg>
+            </div>
+            <h3 class="heading-sm text-fg">Launch Startup Ideas</h3>
+            <p class="text-sm" style="margin-top:0.5rem; color:var(--muted-fg); line-height:1.7;">Spot opportunities, validate ideas, and take them from concept to real-world pitch or venture.</p>
+            <div class="skill-outcomes">
+              <span>Ideation</span><span>Validation</span><span>Pitching</span>
+            </div>
+          </div>
+          <div class="card card-hover card-lift animate-on-scroll animate-delay-200 skill-card">
+            <div class="skill-icon-wrap" style="background:hsla(30,90%,55%,0.12); border-color:hsla(30,90%,55%,0.3);">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fb923c" stroke-width="2"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg>
+            </div>
+            <h3 class="heading-sm text-fg">Use AI Tools</h3>
+            <p class="text-sm" style="margin-top:0.5rem; color:var(--muted-fg); line-height:1.7;">Use ChatGPT, Canva, and automation tools to solve problems, create faster, and work smarter.</p>
+            <div class="skill-outcomes">
+              <span>ChatGPT</span><span>Automation</span><span>Canva</span>
+            </div>
+          </div>
+          <div class="card card-hover card-lift animate-on-scroll skill-card">
+            <div class="skill-icon-wrap" style="background:hsla(210,80%,60%,0.12); border-color:hsla(210,80%,60%,0.3);">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#60a5fa" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3 class="heading-sm text-fg">Lead Teams</h3>
+            <p class="text-sm" style="margin-top:0.5rem; color:var(--muted-fg); line-height:1.7;">Build communication, teamwork, and decision-making through real group projects and live feedback.</p>
+            <div class="skill-outcomes">
+              <span>Communication</span><span>Teamwork</span><span>Decisions</span>
+            </div>
+          </div>
+          <div class="card card-hover card-lift animate-on-scroll animate-delay-100 skill-card">
+            <div class="skill-icon-wrap" style="background:hsla(340,80%,55%,0.12); border-color:hsla(340,80%,55%,0.3);">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#f472b6" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </div>
+            <h3 class="heading-sm text-fg">Market a Brand</h3>
+            <p class="text-sm" style="margin-top:0.5rem; color:var(--muted-fg); line-height:1.7;">Create brands, run campaigns, and tell compelling stories using psychology and modern digital media.</p>
+            <div class="skill-outcomes">
+              <span>Branding</span><span>Content</span><span>Strategy</span>
+            </div>
+          </div>
+          <div class="card card-hover card-lift animate-on-scroll animate-delay-200 skill-card">
+            <div class="skill-icon-wrap" style="background:hsla(40,90%,55%,0.12); border-color:hsla(40,90%,55%,0.3);">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg>
+            </div>
+            <h3 class="heading-sm text-fg">Solve Real Problems</h3>
+            <p class="text-sm" style="margin-top:0.5rem; color:var(--muted-fg); line-height:1.7;">Develop the entrepreneurial mindset to see opportunities, think creatively, and act with purpose.</p>
+            <div class="skill-outcomes">
+              <span>Critical Thinking</span><span>Innovation</span><span>Resilience</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="sec-cta-wrap">
+      <div class="cta-banner cta-blue animate-on-scroll">
+        <div>
+          <h3>These Skills Compound Over Time</h3>
+          <p>The earlier they start, the bigger the long-term advantage.</p>
+        </div>
+        <a href="enroll.html" class="btn btn-md btn-white">Start Building Skills &rarr;</a>
+      </div>
+    </div>
+
+    <!-- ══ SEC 9 — WHY YOUNGMBA IS DIFFERENT ══ -->
+    <section id="sec-different" class="section sec-padded sec-alt">
+      <div class="container">
+                <div class="text-center animate-heading-reveal">
+          <span style="display:inline-block; font-size:0.75rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--accent); background:hsla(160,70%,45%,0.12); border:1px solid hsla(160,70%,45%,0.25); border-radius:9999px; padding:0.3rem 0.9rem; margin-bottom:1.25rem;">The YoungMBA Difference</span>
+          <h2 class="heading-xl text-balance">
+            <span class="text-fg">Why YoungMBA </span><span class="text-gradient-purple">Is Different</span>
+          </h2>
+          <p class="section-subtitle">Not another online course. A future-focused academy built on project learning, real mentorship, and tools that matter.</p>
+        </div>
+        <style>.comparison-grid{display:grid!important;grid-template-columns:1fr 1fr!important;gap:1rem;margin-top:1.5rem}@media(max-width:500px){.comparison-grid{grid-template-columns:1fr!important}}</style>
+        <div class="comparison-grid animate-on-scroll" style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:2.5rem;">
+          <div class="card card-hover" style="border-color:hsla(0,80%,55%,0.25);padding:1.75rem;">
+            <div style="display:flex;align-items:center;gap:0.625rem;margin-bottom:1.25rem;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--destructive)" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></svg><strong class="text-fg" style="font-size:1rem;">Traditional School</strong></div>
+            <ul style="display:flex;flex-direction:column;gap:0.75rem;">
+              <li style="display:flex;gap:0.625rem;align-items:flex-start;font-size:0.875rem;color:var(--muted-fg);"><span style="width:7px;height:7px;border-radius:50%;background:var(--destructive);flex-shrink:0;margin-top:0.375rem;"></span>Passive listening &amp; memorisation</li>
+              <li style="display:flex;gap:0.625rem;align-items:flex-start;font-size:0.875rem;color:var(--muted-fg);"><span style="width:7px;height:7px;border-radius:50%;background:var(--destructive);flex-shrink:0;margin-top:0.375rem;"></span>Tested on things that don't matter</li>
+              <li style="display:flex;gap:0.625rem;align-items:flex-start;font-size:0.875rem;color:var(--muted-fg);"><span style="width:7px;height:7px;border-radius:50%;background:var(--destructive);flex-shrink:0;margin-top:0.375rem;"></span>Zero financial literacy taught</li>
+              <li style="display:flex;gap:0.625rem;align-items:flex-start;font-size:0.875rem;color:var(--muted-fg);"><span style="width:7px;height:7px;border-radius:50%;background:var(--destructive);flex-shrink:0;margin-top:0.375rem;"></span>AI &amp; technology completely ignored</li>
+              <li style="display:flex;gap:0.625rem;align-items:flex-start;font-size:0.875rem;color:var(--muted-fg);"><span style="width:7px;height:7px;border-radius:50%;background:var(--destructive);flex-shrink:0;margin-top:0.375rem;"></span>No portfolio or real-world proof</li>
+            </ul>
+          </div>
+          <div class="card card-hover" style="border-color:hsla(160,70%,45%,0.35);padding:1.75rem;">
+            <div style="display:flex;align-items:center;gap:0.625rem;margin-bottom:1.25rem;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><strong class="text-gradient-purple" style="font-size:1rem;">YoungMBA</strong></div>
+            <ul style="display:flex;flex-direction:column;gap:0.75rem;">
+              <li style="display:flex;gap:0.625rem;align-items:flex-start;font-size:0.875rem;color:var(--muted-fg);"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="3" style="flex-shrink:0;margin-top:0.2rem;"><path d="M20 6 9 17l-5-5"/></svg>Hands-on project-based learning</li>
+              <li style="display:flex;gap:0.625rem;align-items:flex-start;font-size:0.875rem;color:var(--muted-fg);"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="3" style="flex-shrink:0;margin-top:0.2rem;"><path d="M20 6 9 17l-5-5"/></svg>Portfolio &amp; certificate of completion</li>
+              <li style="display:flex;gap:0.625rem;align-items:flex-start;font-size:0.875rem;color:var(--muted-fg);"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="3" style="flex-shrink:0;margin-top:0.2rem;"><path d="M20 6 9 17l-5-5"/></svg>Financial literacy baked in from day 1</li>
+              <li style="display:flex;gap:0.625rem;align-items:flex-start;font-size:0.875rem;color:var(--muted-fg);"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="3" style="flex-shrink:0;margin-top:0.2rem;"><path d="M20 6 9 17l-5-5"/></svg>AI tools used in every module</li>
+              <li style="display:flex;gap:0.625rem;align-items:flex-start;font-size:0.875rem;color:var(--muted-fg);"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="3" style="flex-shrink:0;margin-top:0.2rem;"><path d="M20 6 9 17l-5-5"/></svg>Real mentor feedback on real work</li>
+            </ul>
+          </div>
+        </div>
+        <div class="wsa-grid" style="margin-top:2rem;">
+          <div class="card card-hover animate-on-scroll" style="padding:1.75rem;">
+            <div style="display:flex;align-items:center;gap:1rem;margin-bottom:0.875rem;">
+              <div style="width:48px;height:48px;border-radius:0.75rem;background:linear-gradient(135deg,#fb923c,#ea580c);display:flex;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 4px 14px rgba(249,115,22,0.3);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
+              <h3 class="heading-sm text-fg">Project-Based Learning</h3>
+            </div>
+            <p style="color:var(--muted-fg);line-height:1.7;font-size:0.925rem;">Every module ends with a deliverable — websites, campaigns, pitch decks. A portfolio, not a grade.</p>
+          </div>
+          <div class="card card-hover animate-on-scroll animate-delay-100" style="padding:1.75rem;">
+            <div style="display:flex;align-items:center;gap:1rem;margin-bottom:0.875rem;">
+              <div style="width:48px;height:48px;border-radius:0.75rem;background:linear-gradient(135deg,#34d399,#059669);display:flex;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 4px 14px rgba(16,185,129,0.3);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg></div>
+              <h3 class="heading-sm text-fg">AI Tools Every Module</h3>
+            </div>
+            <p style="color:var(--muted-fg);line-height:1.7;font-size:0.925rem;">Students don't learn about AI — they use it. ChatGPT, Canva, and automation woven into every lesson.</p>
+          </div>
+          <div class="card card-hover animate-on-scroll animate-delay-200" style="padding:1.75rem;">
+            <div style="display:flex;align-items:center;gap:1rem;margin-bottom:0.875rem;">
+              <div style="width:48px;height:48px;border-radius:0.75rem;background:linear-gradient(135deg,#facc15,#f97316);display:flex;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 4px 14px rgba(250,204,21,0.25);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+              <h3 class="heading-sm text-fg">Financial Literacy Core</h3>
+            </div>
+            <p style="color:var(--muted-fg);line-height:1.7;font-size:0.925rem;">Money skills built into the foundation, not added as an afterthought. Students graduate understanding wealth.</p>
+          </div>
+          <div class="card card-hover animate-on-scroll animate-delay-300" style="padding:1.75rem;">
+            <div style="display:flex;align-items:center;gap:1rem;margin-bottom:0.875rem;">
+              <div style="width:48px;height:48px;border-radius:0.75rem;background:linear-gradient(135deg,#60a5fa,#2563eb);display:flex;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 4px 14px rgba(59,130,246,0.3);"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+              <h3 class="heading-sm text-fg">Real Mentor Guidance</h3>
+            </div>
+            <p style="color:var(--muted-fg);line-height:1.7;font-size:0.925rem;">Feedback from people who've built real businesses — not AI comments. Mentors guide every student's journey.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="sec-cta-wrap">
+      <div class="cta-banner cta-amber animate-on-scroll">
+        <div>
+          <h3>See the Difference for Yourself</h3>
+          <p>Start the free program today — no commitment required.</p>
+        </div>
+        <a href="enroll.html" class="btn btn-md btn-white">Try It Free &rarr;</a>
+      </div>
+    </div>
+
+    <!-- ══ SEC 10 — WHO IT'S FOR ══ -->
+    <section id="sec-who" class="section sec-padded">
+      <div class="container">
+                <div class="text-center animate-heading-reveal">
+          <span style="display:inline-block; font-size:0.75rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--primary); background:hsla(260,70%,60%,0.12); border:1px solid hsla(260,70%,60%,0.25); border-radius:9999px; padding:0.3rem 0.9rem; margin-bottom:1.25rem;">Is This Right For You?</span>
+          <h2 class="heading-xl text-balance">
+            <span class="text-fg">Who Is YoungMBA </span><span class="text-gradient-purple">Built For?</span>
+          </h2>
+          <p class="section-subtitle">Every type of ambitious young learner — and the parents who want to give them a real advantage.</p>
+        </div>
+        <div class="grid grid-4 gap-6 sec-grid-top">
+          <div class="card card-hover card-lift text-center animate-on-scroll who-card"><div class="who-icon" style="color:var(--primary);"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/></svg></div><h3 class="font-bold text-fg">The Young Visionary</h3><p class="text-sm" style="margin-top:0.5rem; color:var(--muted-fg); line-height:1.6;">Dreams of building something big and wants the skills to make it real.</p></div>
+          <div class="card card-hover card-lift text-center animate-on-scroll animate-delay-100 who-card"><div class="who-icon" style="color:#60a5fa;"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div><h3 class="font-bold text-fg">The Future Executive</h3><p class="text-sm" style="margin-top:0.5rem; color:var(--muted-fg); line-height:1.6;">A natural leader who wants real tools to back up their instincts.</p></div>
+          <div class="card card-hover card-lift text-center animate-on-scroll animate-delay-200 who-card"><div class="who-icon" style="color:#f472b6;"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg></div><h3 class="font-bold text-fg">The Creative Solver</h3><p class="text-sm" style="margin-top:0.5rem; color:var(--muted-fg); line-height:1.6;">Loves puzzles, strategy, and finding smarter ways to do things.</p></div>
+          <div class="card card-hover card-lift text-center animate-on-scroll animate-delay-300 who-card"><div class="who-icon" style="color:#22d3ee;"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div><h3 class="font-bold text-fg">The Tech Builder</h3><p class="text-sm" style="margin-top:0.5rem; color:var(--muted-fg); line-height:1.6;">Fascinated by AI, coding, and digital tools — and what can be built with them.</p></div>
+          <div class="card card-hover card-lift text-center animate-on-scroll who-card"><div class="who-icon" style="color:#facc15;"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div><h3 class="font-bold text-fg">The Go-Getter</h3><p class="text-sm" style="margin-top:0.5rem; color:var(--muted-fg); line-height:1.6;">Self-motivated and driven to learn, build, and grow faster than their peers.</p></div>
+          <div class="card card-hover card-lift text-center animate-on-scroll animate-delay-100 who-card"><div class="who-icon" style="color:#34d399;"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg></div><h3 class="font-bold text-fg">The Practical Learner</h3><p class="text-sm" style="margin-top:0.5rem; color:var(--muted-fg); line-height:1.6;">Bored by lectures — thrives when building something real they can show off.</p></div>
+          <div class="card card-hover card-lift text-center animate-on-scroll animate-delay-200 who-card"><div class="who-icon" style="color:#a78bfa;"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div><h3 class="font-bold text-fg">The Team Builder</h3><p class="text-sm" style="margin-top:0.5rem; color:var(--muted-fg); line-height:1.6;">Energised by collaboration and wants to learn how to lead a group toward a goal.</p></div>
+          <div class="card card-hover card-lift text-center animate-on-scroll animate-delay-300 who-card"><div class="who-icon" style="color:#f87171;"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg></div><h3 class="font-bold text-fg">Supportive Parents</h3><p class="text-sm" style="margin-top:0.5rem; color:var(--muted-fg); line-height:1.6;">Parents who know the world has changed and want their child ready for what's ahead.</p></div>
+        </div>
+      </div>
+    </section>
+    <div class="sec-cta-wrap">
+      <div class="cta-banner cta-teal animate-on-scroll">
+        <div>
+          <h3>Sound Like Your Child?</h3>
+          <p>Enroll today and give them the skills school will never teach.</p>
+        </div>
+        <a href="enroll.html" class="btn btn-md btn-white">Enroll Now &rarr;</a>
+      </div>
+    </div>
+
+    <!-- ══ SEC 11 — FOUNDER MESSAGE ══ -->
+    <section id="sec-founder" class="section sec-padded sec-alt">
+      <div class="container-md">
+        <div class="text-center animate-heading-reveal" style="margin-bottom:2.5rem;">
+          <span style="display:inline-block; font-size:0.75rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--primary); background:hsla(260,70%,60%,0.12); border:1px solid hsla(260,70%,60%,0.25); border-radius:9999px; padding:0.3rem 0.9rem; margin-bottom:1.25rem;">From the Founder</span>
+          <h2 class="heading-xl">
+            <span class="text-fg">Why YoungMBA </span>
+            <span class="text-gradient-purple">Exists</span>
+          </h2>
+          <p class="section-subtitle">The honest story behind why this academy was built — and the mission driving it forward.</p>
+        </div>
+        <div class="card card-hover animate-on-scroll" style="padding:2.5rem 2.75rem; border-color:hsla(260,70%,60%,0.2); position:relative;">
+          <div style="position:absolute; top:1.5rem; left:2rem; font-size:6rem; line-height:1; color:var(--primary); opacity:0.1; font-family:Georgia,serif; pointer-events:none;">&ldquo;</div>
+          <div style="position:relative; z-index:1;">
+            <p style="font-size:1.1rem; line-height:1.9; color:var(--muted-fg); margin-bottom:1.5rem;">
+              Traditional education rarely teaches students how money works, how businesses operate, or how to use modern technology like AI. I watched young people leave school bright, capable, and completely unprepared for the real economy.
+            </p>
+            <p style="font-size:1.1rem; line-height:1.9; color:var(--muted-fg); margin-bottom:1.5rem;">
+              YoungMBA was built to fill that gap — not with more theory or buzzwords, but with real projects, real tools, and real mentorship that equips students with what the future actually demands.
+            </p>
+            <p style="font-size:1.1rem; line-height:1.9; color:var(--fg); font-weight:600;">
+              Our mission is simple: help young people develop the skills, mindset, and confidence to thrive in the future economy — before everyone else catches up.
+            </p>
+            <div style="margin-top:2rem; padding-top:1.5rem; border-top:1px solid var(--border); display:flex; align-items:center; gap:1rem;">
+              <div style="width:52px;height:52px;border-radius:50%;background:linear-gradient(135deg,#7c3aed,#a855f7);display:flex;align-items:center;justify-content:center;font-size:1.375rem;font-weight:800;color:#fff;flex-shrink:0;box-shadow:0 4px 16px hsla(260,70%,60%,0.35);">Y</div>
+              <div>
+                <div style="font-weight:700; color:var(--fg); font-size:1rem;">YoungMBA Academy</div>
+                <div style="font-size:0.875rem; color:var(--muted-fg);">youngmba.io</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center" style="margin-top:2rem;">
+          <a href="about.html" class="btn btn-sm btn-outline animate-on-scroll">Read Our Story &rarr;</a>
+        </div>
+      </div>
+    </section>
+    <div class="sec-cta-wrap">
+      <div class="cta-banner cta-pink animate-on-scroll">
+        <div>
+          <h3>Believe in the Mission?</h3>
+          <p>Join the founding cohort and help shape the next generation of leaders.</p>
+        </div>
+        <a href="enroll.html" class="btn btn-md btn-white">Join the Movement &rarr;</a>
+      </div>
+    </div>
+
+    <!-- ══ SEC 12 — FINAL CTA ══ -->
+    <section id="sec-cta" class="section sec-padded">
+      <div class="container-md text-center">
+        <div class="animate-heading-reveal">
+          <span style="display:inline-block; font-size:0.75rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--accent); background:hsla(160,70%,45%,0.12); border:1px solid hsla(160,70%,45%,0.25); border-radius:9999px; padding:0.3rem 0.9rem; margin-bottom:1.25rem;">The Journey Starts Here</span>
+          <h2 class="heading-xl text-balance">
+            <span class="text-fg">Your Child's Future </span>
+            <span class="text-gradient-purple">Starts Today</span>
+          </h2>
+          <p class="section-subtitle" style="max-width:520px; margin-left:auto; margin-right:auto;">YoungMBA gives young people the skills schools skip — entrepreneurship, financial intelligence, and AI fluency. One program. A lifetime of advantage.</p>
+        </div>
+        <div class="flex items-center justify-center gap-4 flex-wrap animate-on-scroll" style="margin-top:2.5rem;">
+          <a href="enroll.html" class="btn btn-lg btn-primary animate-pulse-glow">Start Free Trial &rarr;</a>
+          <a href="programs.html" class="btn btn-lg btn-outline">See All Programs</a>
+        </div>
+        <div class="final-cta-stats" style="margin-top:2.5rem;">
+          <div class="final-stat animate-on-scroll">
+            <div class="final-stat-val" style="color:var(--accent);">Free</div>
+            <div class="final-stat-label">Financial Foundations — start with zero risk</div>
+          </div>
+          <div class="final-stat animate-on-scroll animate-delay-100">
+            <div class="final-stat-val" style="color:var(--primary);">5+</div>
+            <div class="final-stat-label">Real projects built during the program</div>
+          </div>
+          <div class="final-stat animate-on-scroll animate-delay-200">
+            <div class="final-stat-val" style="color:#fb923c;">Life</div>
+            <div class="final-stat-label">Skills that compound and pay off forever</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div class="footer-brand-col">
+          <a href="index.html" class="logo" style="display:inline-flex;">
+            <img src="logo.png" alt="YoungMBA" class="logo-img" width="32" height="32">
+            <span class="logo-text">YoungMBA</span>
+          </a>
+          <p>Empowering the next generation of entrepreneurs with real-world business skills, financial literacy, and future-ready thinking.</p>
+          <div class="footer-social" style="margin-top:1.25rem;">
+            <a href="#" class="social-link" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></svg></a>
+            <a href="#" class="social-link" aria-label="X (Twitter)"><svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+            <a href="#" class="social-link" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+            <a href="#" class="social-link" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="programs.html">Programs &amp; Pricing</a></li>
+            <li><a href="curriculum.html">Curriculum</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="faq.html">FAQs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Programs</h3>
+          <ul>
+            <li><a href="programs.html">Financial Foundations</a></li>
+            <li><a href="programs.html">Self-Paced Course</a></li>
+            <li><a href="programs.html">Live Masterclass</a></li>
+            <li><a href="enroll.html">Enroll Now</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Contact</h3>
+          <ul>
+            <li>
+              <a href="mailto:Youngmba.academy@gmail.com" style="display:flex;align-items:center;gap:0.5rem;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>Youngmba.academy@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-divider">
+        <p>&copy; 2026 YoungMBA Academy. All rights reserved.</p>
+        <div class="footer-divider-links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js?v=40"></script>
+
+  <!-- ── FLOATING ENROLL BUTTON ── -->
+  <a href="enroll.html" id="float-enroll" aria-label="Enroll Now">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+    <span>Enroll Now</span>
+  </a>
+
+  <!-- ── MINI STICKY NAV (dots) ── -->
+  <nav id="section-nav" aria-label="Page sections">
+    <a href="#sec-problem"   data-label="The Problem"          class="snav-dot"></a>
+    <a href="#sec-failing"   data-label="Why Schools Fail"     class="snav-dot"></a>
+    <a href="#sec-what"      data-label="What YoungMBA Is"     class="snav-dot"></a>
+    <a href="#sec-how"       data-label="How It Works"         class="snav-dot"></a>
+    <a href="#sec-programs"  data-label="Programs"             class="snav-dot"></a>
+    <a href="#sec-build"     data-label="What Students Build"  class="snav-dot"></a>
+    <a href="#sec-skills"    data-label="Skills"               class="snav-dot"></a>
+    <a href="#sec-different" data-label="Why We're Different"  class="snav-dot"></a>
+    <a href="#sec-who"       data-label="Who It's For"         class="snav-dot"></a>
+    <a href="#sec-founder"   data-label="Founder Message"      class="snav-dot"></a>
+    <a href="#sec-cta"       data-label="Get Started"          class="snav-dot"></a>
+  </nav>
+
+</body>
